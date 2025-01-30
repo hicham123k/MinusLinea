@@ -3,19 +3,19 @@
 <head>
   <title>ML</title>
   <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
-
   <div>
-   <form action="submit">
-    <label for="blockedS">Delete Me</label>
-    <input type="text" id="blockedS" name="blockedS" placeholder="Facebook.com"> <button>submit</button>
+    <form id="domainForm">
+      <label for="blockedS">Delete Me</label>
+      <input type="text" id="blockedS" name="blockedS" placeholder="facebook.com">
+      <button type="submit">Add</button>
     </form>
-
-
     
-    
-
+    <div id="blockedList"></div>
   </div>
+  
+  <script src="popup.js"></script>
 </body>
 </html>
